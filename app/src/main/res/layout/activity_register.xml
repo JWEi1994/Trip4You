@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".beforeLogin.Register">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+
+        <LinearLayout
+            android:background="#F78045"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginTop="20sp"
+                android:text="  Please Sign up! It's free and always will be."
+                android:textColor="#000"
+                android:textSize="15sp"
+                 />
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+
+                app:met_textColor="#FF4500"
+                app:met_singleLineEllipsis="true"
+                android:id="@+id/et_firstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="Firstname:"
+                android:singleLine="true"
+                app:met_floatingLabel="highlight"
+                app:met_textColorHint="#F78045" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_textColor="#FF4500"
+                app:met_singleLineEllipsis="true"
+                android:id="@+id/et_lastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginRight="20dp"
+                android:hint="Lastname:"
+                app:met_floatingLabel="highlight"
+                app:met_textColorHint="#F78045" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_textColor="#FF4500"
+                app:met_singleLineEllipsis="true"
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="Email:"
+                app:met_floatingLabel="highlight"
+                app:met_textColorHint="#F78045" />
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:inputType="textPassword"
+                app:met_textColor="#FF4500"
+                app:met_singleLineEllipsis="true"
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="170dp"
+                android:hint="Password:"
+                app:met_floatingLabel="highlight"
+                app:met_textColorHint="#F78045" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_textColor="#FF4500"
+                app:met_singleLineEllipsis="true"
+                android:id="@+id/et_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="220dp"
+                android:hint="Contact (In case of emergency)"
+                app:met_floatingLabel="highlight"
+                app:met_textColorHint="#F78045" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    app:met_textColor="#FF4500"
+                    app:met_singleLineEllipsis="true"
+                    android:id="@+id/et_nationality"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="270dp"
+                    android:hint="Nationality"
+                    app:met_floatingLabel="highlight"
+                    app:met_textColorHint="#F78045" />
+
+            </android.support.v7.widget.CardView>
+
+            <Button
+                android:enabled="false"
+                android:layout_marginBottom="250dp"
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#FF4500"
+                android:text="Register As Member"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+            android:textSize="17sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

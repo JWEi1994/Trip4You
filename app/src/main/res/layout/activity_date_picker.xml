@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homefragment.DatePicker"
+    android:orientation="vertical">
+
+
+    <TextView
+
+        android:id="@+id/tv_tripDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="225dp"
+        android:fontFamily="casual"
+        android:gravity="center_horizontal"
+        android:paddingVertical="@dimen/activity_horizontal_margin"
+        android:text="Please Select A Participation Date Here"
+        android:textColor="#ff4d00"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:background="@color/white_color"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="250dp"
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

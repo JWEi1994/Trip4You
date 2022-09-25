@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    <ImageView
+        android:src="@drawable/kualalumpur"
+        android:id="@+id/img_kl"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kuala Lumpur"
+        android:textColor="#fff" />
+
+    <ImageView
+        android:layout_marginTop="200dp"
+        android:src="@drawable/kedah"
+        android:id="@+id/img_kedah"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:layout_marginTop="200dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kedah"
+        android:textColor="#fff" />
+
+        <ImageView
+            android:layout_marginTop="400dp"
+            android:src="@drawable/malacca"
+            android:id="@+id/img_malacca"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_marginTop="400dp"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Malacca"
+            android:textColor="#fff" />
+
+        <ImageView
+            android:layout_marginTop="600dp"
+            android:src="@drawable/johor"
+            android:id="@+id/img_johor"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_marginTop="600dp"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Johor "
+            android:textColor="#fff" />
+
+
+        <ImageView
+            android:layout_marginTop="800dp"
+            android:src="@drawable/sabah"
+            android:id="@+id/img_sabah"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_marginBottom="150dp"
+            android:layout_marginTop="800dp"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sabah"
+            android:textColor="#fff" />
+
+
+
+    </RelativeLayout>
+</ScrollView>

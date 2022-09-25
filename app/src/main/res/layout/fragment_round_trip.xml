@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color">
+
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:background="@drawable/fragment_bg"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<TextView-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:text="One Way"-->
+        <!--android:textColor="#000"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+        <TextView
+            android:textSize="15sp"
+            android:drawableLeft="@mipmap/ic_takeoff"
+            android:layout_marginTop="30dp"
+            android:text="Select Source"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/spinner_Source"
+            android:spinnerMode="dropdown"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="45dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Spinner>
+
+        <TextView
+            android:drawableLeft="@mipmap/ic_land"
+            android:layout_marginTop="100dp"
+            android:textSize="15sp"
+            android:text="Select Destination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/spinner_Destination"
+            android:spinnerMode="dropdown"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="115dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Spinner>
+
+
+        <TextView
+            android:drawableLeft="@mipmap/ic_date"
+            android:layout_marginTop="170dp"
+            android:text="Depart Time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <EditText
+            android:drawableLeft="@mipmap/ic_person"
+            android:layout_marginTop="220dp"
+            android:hint="Enter Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:drawableLeft="@mipmap/ic_email"
+            android:layout_marginTop="280dp"
+            android:hint="Enter Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <EditText
+            android:drawableLeft="@mipmap/ic_phone"
+            android:layout_marginTop="340dp"
+            android:hint="Phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="410dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Child(3-11)"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+
+            <LinearLayout
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal"
+                android:layout_width="130dp"
+                android:layout_height="80dp">
+
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:id="@+id/btn_Cminus"
+                    android:layout_width="40dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/bg_color"
+                    android:text="-"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/tv_CcounterTxt"
+                    android:layout_width="40dp"
+                    android:layout_height="35dp"
+                    android:background="#fff"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:text="0" />
+
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:id="@+id/btn_Cplus"
+                    android:layout_width="40dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/bg_color"
+                    android:text="+"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="410dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:paddingRight="20dp"
+                android:text="Adult(12+years)"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+
+            <LinearLayout
+                android:layout_marginLeft="170dp"
+                android:orientation="horizontal"
+                android:layout_width="130dp"
+                android:layout_height="80dp">
+
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:id="@+id/btn_Aminus"
+                    android:layout_width="40dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/bg_color"
+                    android:text="-"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/tv_AcounterTxt"
+                    android:layout_width="40dp"
+                    android:layout_height="35dp"
+                    android:background="#fff"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:text="0" />
+
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:id="@+id/btn_Aplus"
+                    android:layout_width="40dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/bg_color"
+                    android:text="+"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="520dp"
+            android:textAllCaps="false"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:background="@drawable/bg_color"
+            android:textColor="#fff"
+            android:text="Search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

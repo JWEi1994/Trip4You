@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profilefragment.About">
+
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="140dp"
+        android:src="@drawable/trip4youlogo"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:layout_marginLeft="150dp"
+        android:textColor="#000"
+        android:layout_marginTop="160dp"
+        android:text="Trip4You"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textColor="#000"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="190dp"
+        android:text="Version v1.0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="230dp"
+        android:background="#ac897e7e"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+
+    <TextView
+        android:textStyle="normal"
+        android:textColor="#000"
+        android:text="Thankyou for showing interest in our Trip4You Travel Mangement Application; I would like to take this opportunity to introduce our organization for various travel queries like you can use our Application for booking travel package to the ones for yourself and your organization.We will be helping you in booking through our Trip4You Application."
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

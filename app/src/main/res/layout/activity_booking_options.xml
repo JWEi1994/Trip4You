@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Homefragment.BookNow.BookingOptions">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_tripName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Trip Name"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/tv_Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Press here to select a tour date"
+                android:textColor="#FF4500" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="Package Quantity"
+        android:textSize="15sp" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:paddingRight="20dp"
+                android:text="Adult(12-64)"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+
+            <Button
+                android:id="@+id/btn_Aminus"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:background="#fff"
+                android:text="-"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/tv_AcounterTxt"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="20dp"
+                android:background="#EEE2E2"
+                android:focusable="false"
+                android:gravity="center"
+                android:inputType="number"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/btn_Aplus"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="20dp"
+                android:background="#fff"
+                android:text="+"
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+        <TextView
+
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:text="price"
+            android:textColor="#000"
+            android:textSize="12sp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="80dp"
+            android:background="#CFC7C5" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="250dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="90dp"
+                android:paddingRight="20dp"
+                android:text="Child(3-11)"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+
+            <Button
+                android:id="@+id/btn_Cminus"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="100dp"
+                android:background="#fff"
+                android:text="-"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/tv_CcounterTxt"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="100dp"
+                android:background="#EEE2E2"
+                android:focusable="false"
+                android:gravity="center"
+                android:inputType="number"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/btn_Cplus"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="100dp"
+                android:background="#fff"
+                android:text="+"
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_cprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="120dp"
+            android:text="price"
+            android:textColor="#000"
+            android:textSize="12sp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="160dp"
+            android:background="#CFC7C5" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="250dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="170dp"
+                android:paddingRight="20dp"
+                android:text="Senior(65+)"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+
+            <Button
+                android:id="@+id/btn_Sminus"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="180dp"
+                android:background="#fff"
+                android:text="-"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/tv_ScounterTxt"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="180dp"
+                android:background="#EEE2E2"
+                android:focusable="false"
+                android:gravity="center"
+                android:inputType="number"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/btn_Splus"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="180dp"
+                android:background="#fff"
+                android:text="+"
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_sprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="200dp"
+            android:text="price"
+            android:textColor="#000"
+            android:textSize="12sp" />
+
+
+    </android.support.v7.widget.CardView>
+
+    <!--<TextView-->
+    <!--android:textColor="#aa0a0a"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:text="*not necessarly "-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<Button-->
+    <!--android:id="@+id/btn_AirTicket"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="60dp"-->
+    <!--android:layout_marginTop="0dp"-->
+    <!--android:background="#fff"-->
+    <!--android:paddingLeft="15dp"-->
+    <!--android:text="Buy a flight ticket?"-->
+    <!--android:textAlignment="textStart"-->
+    <!--android:textAllCaps="false"-->
+    <!--android:textColor="#50504F"-->
+    <!--android:textSize="15sp" />-->
+
+
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="40dp">-->
+
+
+    <!--<RadioButton-->
+    <!--android:text="Air Ticket"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--</android.support.v7.widget.CardView>-->
+
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="40dp">-->
+    <!---->
+    <!--<TextView-->
+    <!--android:id="@+id/tv_AirTicket"-->
+    <!--android:textColor="#000"-->
+    <!--android:drawableLeft="@mipmap/ic_addon"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:text="Air Ticket"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <!--</android.support.v7.widget.CardView>-->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="23dp"
+        android:text="Total"
+        android:textSize="10sp" />
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <!--<TextView-->
+
+        <!--android:id="@+id/tv_Adisplayprice"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginTop="0dp"-->
+        <!--android:paddingRight="120dp"-->
+        <!--android:textColor="#FF5500"-->
+        <!--android:textSize="17sp" />-->
+
+        <!--<TextView-->
+
+        <!--android:id="@+id/tv_Cdisplayprice"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginTop="0dp"-->
+        <!--android:paddingRight="120dp"-->
+        <!--android:textColor="#FF5500"-->
+        <!--android:textSize="17sp" />-->
+
+        <!--<TextView-->
+
+        <!--android:id="@+id/tv_Sdisplayprice"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginTop="0dp"-->
+        <!--android:paddingRight="120dp"-->
+        <!--android:textColor="#FF5500"-->
+        <!--android:textSize="17sp" />-->
+
+        <TextView
+            android:id="@+id/tv_totalAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text=" RM 0"
+            android:textColor="#FF5500"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_addtocart"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/orange_default"
+            android:text="Book Now"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

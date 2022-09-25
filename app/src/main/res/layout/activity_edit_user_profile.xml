@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5"
+    tools:context=".Profilefragment.EditOption">
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_editUserAcc"
+        android:textSize="15sp"
+        android:background="#fff"
+        android:textAllCaps="false"
+        android:text="Account Information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_changepassword"
+        android:textSize="15sp"
+        android:background="#fff"
+        android:textAllCaps="false"
+        android:text="Change Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:id="@+id/btn_logout"
+        android:textColor="#FF0000"
+        android:textAllCaps="false"
+        android:text="Logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>

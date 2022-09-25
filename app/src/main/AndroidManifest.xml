@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dcs.suc.trip">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/trip4youlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".beforeLogin.SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".beforeLogin.Login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".beforeLogin.Register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Profilefragment.EditOption" />
+        <activity android:name=".Profilefragment.EditUserAcc" />
+        <activity android:name=".Profilefragment.ChangePassword" />
+        <activity android:name=".Profilefragment.ContactUs" />
+        <activity android:name=".Homefragment.PackageInfo" />
+        <activity android:name=".Profilefragment.DisplayWishList" />
+        <activity android:name=".ListView.WishList" />
+        <activity android:name=".ListView.Cart" />
+        <activity android:name=".Profilefragment.DisplayCart" />
+        <activity android:name=".Homefragment.BookNow.BookingInfo" />
+        <activity android:name=".Homefragment.BookNow.BookingOptions" />
+        <activity android:name=".Homefragment.BookNow.BookResult" />
+        <activity android:name=".Profilefragment.EditBookingOptions" />
+        <activity android:name=".Profilefragment.DisplayReservation" />
+        <activity android:name=".Homefragment.AddCart.AddToCartOptions" />
+        <activity android:name=".Homefragment.AddCart.AddedResult" />
+        <activity android:name=".PaymentDetails" />
+        <activity android:name=".Profilefragment.DisplayBought" />
+        <activity android:name=".Homefragment.BookNow.FlightSelection" />
+        <activity android:name=".Profilefragment.About" />
+        <activity android:name=".Homefragment.DisplayFlightTicket" />
+        <activity android:name=".PaymentRejected" />
+        <activity android:name=".Destination.LocationFragment" />
+        <activity android:name=".Destination.LocationFragment" />
+        <activity android:name=".Destination.KLStatePackage" />
+        <activity android:name=".Destination.KedahStatePackage" />
+        <activity android:name=".Destination.JohorStatePackage" />
+        <activity android:name=".Destination.MalaccaStatePackage" />
+        <activity android:name=".Destination.SabahStatePackage" />
+        <activity android:name=".Homefragment.DatePicker" />
+        <activity android:name=".ShoppingCartFragment.CartResult"></activity>
+    </application>
+
+</manifest>
